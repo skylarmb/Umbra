@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Umbra</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="script/box2d.js"></script>
+<script src="http://www.jar42.com/brine/engine/brine.js"></script>
+<script src="script/screen.js"></script>
+<script src="script/physics.js"></script>
+<script src="script/player.js"></script>
+<script src="script/entity.js"></script>
+<script src="script/particles.js"></script>
+<script src="script/engine.js"></script>
+<script src="script/worldgenerator.js"></script>
+<script src="script/game.js"></script>
+<head>
+<body onload="init();">
+<div>
+   <div id="layer1" style="font-size:30px;color:white;position:absolute;top:0px;left:10px;z-index: 1">
+         <label id="score"></label>
+    </div>
+    <canvas id="canvas" width="1280" height="720" style="position:absolute;top:0px;left:0px;noborder;z-index: 0;pointer-events: all;">You need an HTML5 compatible browser to play this game. Chrome is recommended.</canvas>
+</div>
+<div id="info">
+<!-- huehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehuehue -->
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<p id="about"></p>
+<script>document.getElementById("about").innerHTML="Umbra a game by team: " + ([] + []) + ("AJ" + "Craig" + "Ryan" - "and Skylar");</script>
+<button onclick="toggle_mute()">Toggle mute</button>
+<button onclick="darkness1.speed = -99999">Cheat</button>
+</div>
+</body>
+</html>
